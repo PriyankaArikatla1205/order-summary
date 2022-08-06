@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Lexend+Deca:wght@300&family=Red+Hat+Display:wght@500&display=swap');
+  body{
+  background-color:   hsl(225, 100%, 94%);
+  } #main{
+     width:400px;
+     height:600px;
+    border-radius: 20px;
+     margin: auto;
+     margin-top: 70px;
+     background-color: white;
+     
+   }
+   #top{
+     width: 100%;
+     height: 30%;
+     background-image:url("images/illustration-hero.svg");
+     background-size: contain;
+     border-radius: 20px 20px 0px 0px;
+   }
+   #bottom{
+     width:100%;
+     height:70%;
+    border-radius: 0px 0px 20px 20px;
+  
+   font-family: 'Red Hat Display', sans-serif;
+   display: block;
+
+   }
+   h1{
+     margin-left:20% ;
+   }
+   p{
+     opacity: 0.5;
+     text-align: center;
+     margin: auto;
+     margin-right: 10%;
+     margin-left: 10%;
+   
+     line-height: 25px;
+   }
+   #annual{
+     width:60%;
+     height:20px;
+     background-color:white;
+   }
+   #button{
+     width: 80%;
+     height:40px;
+  
+     background-color:hsl(245, 75%, 52%);
+     box-shadow: 10px 10px 40px  hsl(224, 23%, 55%);
+     border-radius: 7px;
+     margin: auto;
+     margin-top: 10%;
+     color: white;
+     font-weight: 900;
+     font-size: 12px;
+    padding:3px 0px 0px 10px;
+    text-align: center;
+   }
+ h3{
+   margin:auto;
+   margin-top: 3%;
+ }
+  #cancel{
+    margin-left:35% ;
+    margin-top: 10%;
+    font-weight: 900;
+  }
+  #insidebottom{
+    display: flex;
+    width:80%;
+    height:80px;
+    margin: auto;
+    margin-top: 20px;
+    background-color:hsl(225, 100%, 98%);
+    opacity: 0.7;
+    border-radius: 15px;
+  }
+  #img{
+    background-image: url("images/icon-music.svg");
+    flex:33% ;
+    background-repeat: no-repeat;
+    margin-top: 5% ;
+    margin-left: 7%;
+    height: auto;
+    
+  }
+  #plan{
+    text-align: center;
+    margin-top: 5%;
+    margin-right:20%;
+
+  }
+  #plan1{
+    font-size: large ;
+  }
+  #plan2{
+   opacity: 0.5;
+  }
+ 
+  #change{
+    flex: 33%;
+    margin-top: 8%;
+   margin-right: 5%;
+    text-align: center;
+  }
+  h4{
+    color: black;
+    margin: auto;
+    margin-right:35%;
+    opacity: 0.5;
+   font-size:15px;
+    
+    
+  }
+  </style>
+</head>
+<body>
+
+  <!-- Order Summary
+
+  You can now listen to millions of songs, audiobooks, and podcasts on any 
+  device anywhere you like!
+
+  Annual Plan
+  $59.99/year
+
+  Change
+
+  Proceed to Payment
+  Cancel Order
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <div id="main">
+    <div id ="top">
+
+    </div>
+    <div id="bottom">
+      
+      <h1>Order Summary</h1>
+ <p id ="text">You can now listen to millions of songs, audiobooks, and podcasts on any 
+  device anywhere you like!</p>
+
+    <div id = "insidebottom">
+    <div id="img">
+      </div>
+     <div id="plan">
+   <span id ="plan1">Annual  Plan</span>
+     <span id="plan2"> $59.99/year</span> 
+    
+  </div>
+      <div id="change"><a href="">Change</a></div>
+    </div>
+    <div id="button"><h3>Proceed to Payment</h3>
+    <h4 id ="cancel">Cancel Order</h4>
+    </div>
+ 
+
+</div>
+  
+</body>
+</html>
